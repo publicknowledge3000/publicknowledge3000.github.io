@@ -1,0 +1,69 @@
+body {
+	background: #eee;
+	font: 13px Verdana, Helvetica, Arial; 
+	overflow: auto;
+}
+
+a {
+	color: #ED2939; /*IMPERIAL RED*/
+	text-decoration: none;
+}
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+.icon {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: 18px;
+}
+
+#index_label {
+	text-align: center;
+	font-size: 44px;
+}
+
+#chat_disclaimer {
+	text-align: center;
+	font-size: 1em;
+}
+
+#chat_list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#chat_list div {
+	font-size: 18px;
+}
+
+.button {
+	background-color: #ED2939;
+	margin: 0px 3px 3px 3px;
+	border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.chat_link_button:hover, .chat_link_button:active {
+	font-size: 32px;
+}
+
+.chat_desc {
+	margin-top: 2px;
+	padding-left: 1em;
+}
+
+.info {
+	color: rgb(0, 200, 40);
+}

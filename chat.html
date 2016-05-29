@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Public Knowledge: Chat</title>
+    <link rel="stylesheet" href="chatStyle.css">
+</head>
+<body>
+    <hr style="height:3px;color:#000;background-color:#000;border:none;">
+    <div id="login">
+        <h2 id="name_textfield_identifier">Enter your name:</h2>
+        <form action="" id="name_textfield">
+            <input id="n" autocomplete="off" maxlength="15"><button class="button" id="name_send">Send</button>
+        </form>
+        <br>
+        <div class="poll" align="center">
+            <figcaption class="poll_caption"><strong><em>Which World War is most interesting to you?</em></strong></figcaption>
+            <div class="poll_elements">
+                <button class="button">World War I</button>
+                <button class="button">World War II</button>
+            </div>
+        </div>
+    </div>
+    <div id="chat">
+        <figure>
+            <!--Change to (N) users-->
+            <figcaption id="user_list_caption">User List:</caption>
+            <ul id="names">
+            </ul>
+        </figure>
+        <div id="messages"></div>
+        <form action="" id="chat_textfield">
+            <input id="m" autocomplete="off" maxlength="500">
+        </form>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="chat_client.js"></script>
+    <script>
+    </script>
+</body>
+</html>
