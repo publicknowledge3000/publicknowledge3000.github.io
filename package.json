@@ -5,5 +5,20 @@
   "dependencies": {
     "express": "^4.10.2",
     "socket.io": "^1.4.6"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/publicknowledge3000/publicknowledge3000.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/publicknowledge3000/publicknowledge3000.github.io/issues"
+  },
+  "homepage": "https://github.com/publicknowledge3000/publicknowledge3000.github.io#readme"
 }
