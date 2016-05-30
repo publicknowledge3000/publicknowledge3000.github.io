@@ -5,6 +5,7 @@
   "dependencies": {
     "express": "^4.10.2",
     "socket.io": "^1.4.6"
+<<<<<<< HEAD
   },
   "scripts": {
     "start": "node server.js"
@@ -22,3 +23,7 @@
   },
   "homepage": "https://github.com/publicknowledge3000/publicknowledge3000.github.io#readme"
 }
+=======
+  }
+}
+>>>>>>> origin/gh-pages

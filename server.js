@@ -64,7 +64,11 @@ io.on("connection", function(socket) {
     });
 });
 
+<<<<<<< HEAD
 var port = Number(process.env.PORT || 3000);
+=======
+var port = 3000;
+>>>>>>> origin/gh-pages
 
 http.listen(port, function() {
   console.log("listening on *:" + port);
