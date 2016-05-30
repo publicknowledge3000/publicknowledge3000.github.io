@@ -1,4 +1,5 @@
 var socket = io();
+socket.connect("http://gasquake.github.io:3000", { autoConnect: true });
 
 $(function() {
 	$("body").prepend("<h1 id='chat_name' style='font-family: Verdana, Helvetica, Arial'>" + localStorage.getItem("pkChat") + "</h1>");
